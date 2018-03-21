@@ -17,6 +17,7 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
+[image0]: ./datapoint_cardinality.jpg "Dataset Class Representation"
 [image1]: ./examples/visualization.jpg "Visualization"
 [image2]: ./examples/grayscale.jpg "Grayscaling"
 [image3]: ./examples/random_noise.jpg "Random Noise"
@@ -51,7 +52,7 @@ signs data set:
 
 Here is an exploratory visualization of the data set. It is a scatter plot that shows how the dataset is unbalanced. Many of the classification labels have less than 500 examples in the training data.
 
-![alt text][datapoint_cardinality.jpg]
+![alt text][image0]
 
 ### Design and Test a Model Architecture
 
