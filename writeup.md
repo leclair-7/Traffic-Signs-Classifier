@@ -113,8 +113,12 @@ The LeNet architecture was chosen to begin with because it has proven to do well
 
 Here are five German traffic signs that I found on the web:
 
-![alt text][image4] ![alt text][image5] ![alt text][image6] 
-![alt text][image7] ![alt text][image8]
+
+<img src="https://github.com/leclair-7/Traffic-Signs-Classifier/blob/master/GermanTrafficSigns/01speedlimit30.PNG" width="200" height="200" />
+<img src="https://github.com/leclair-7/Traffic-Signs-Classifier/blob/master/GermanTrafficSigns/14Stop_sign.jpg" width="200" height="200" />
+<img src="https://github.com/leclair-7/Traffic-Signs-Classifier/blob/master/GermanTrafficSigns/25Roadwork.jpeg" width="200" height="200" />
+<img src="https://github.com/leclair-7/Traffic-Signs-Classifier/blob/master/GermanTrafficSigns/28childrenCrossing.jpg" width="200" height="200" />
+<img src="https://github.com/leclair-7/Traffic-Signs-Classifier/blob/master/GermanTrafficSigns/31animalCrossing.png" width="200" height="200" />
 
 The first image might be difficult to classify because ...
 
