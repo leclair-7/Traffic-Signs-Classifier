@@ -118,7 +118,9 @@ Here are five German traffic signs that I found on the web:
 
 The first image might be difficult to classify because ...
 
-#### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
+#### 2. Discuss the model's predictions vs. prediction on the test set
+
+The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. This compares somewhat favorably to the accuracy on the test set of 95%.  
 
 Here are the results of the prediction:
 
@@ -130,8 +132,6 @@ Here are the results of the prediction:
 | Children Crossing 	| General Caution					 			|
 | Wild Animals Crossing	| Wild Animals Crossing							|
 
-
-The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. This compares favorably to the accuracy on the test set of 80%
 
 #### 3. Discussion of the Classification Performance on the 5 New Images
 
@@ -197,7 +197,5 @@ For the fifth image, the model is certain the sign is Wild Animals Crossing whic
 | .000	      			| Right-of-way at the next intersection			|
 | .000				    | Bicycles Crossing								|
 
-### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
-#### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
 
 
