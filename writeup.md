@@ -114,13 +114,13 @@ The LeNet architecture was chosen to begin with because it has proven to do well
 Here are five German traffic signs that I found on the web:
 
 
-<img src="https://github.com/leclair-7/Traffic-Signs-Classifier/blob/master/GermanTrafficSigns/01speedlimit30.PNG" width="200" height="200" />
-<img src="https://github.com/leclair-7/Traffic-Signs-Classifier/blob/master/GermanTrafficSigns/14Stop_sign.jpg" width="200" height="200" />
+<img src="https://github.com/leclair-7/Traffic-Signs-Classifier/blob/master/GermanTrafficSigns/01speedlimit30.PNG" width="200" height="200" style="white-space: nowrap;" />
+<img src="https://github.com/leclair-7/Traffic-Signs-Classifier/blob/master/GermanTrafficSigns/14Stop_sign.jpg" width="200" height="200" style="white-space: nowrap;" />
 <img src="https://github.com/leclair-7/Traffic-Signs-Classifier/blob/master/GermanTrafficSigns/25Roadwork.jpeg" width="200" height="200" />
-<img src="https://github.com/leclair-7/Traffic-Signs-Classifier/blob/master/GermanTrafficSigns/28childrenCrossing.jpg" width="200" height="200" />
+<img src="https://github.com/leclair-7/Traffic-Signs-Classifier/blob/master/GermanTrafficSigns/28childrenCrossing.jpg" width="200" height="200" style="white-space: nowrap;" />
 <img src="https://github.com/leclair-7/Traffic-Signs-Classifier/blob/master/GermanTrafficSigns/31animalCrossing.png" width="200" height="200" />
 
-The first image might be difficult to classify because ...
+
 
 #### 2. Discuss the model's predictions vs. prediction on the test set
 
