@@ -21,11 +21,11 @@ The goals / steps of this project are the following:
 [image1]: ./examples/visualization.jpg "Visualization"
 [image2]: ./examples/grayscale.jpg "Grayscaling"
 [image3]: ./examples/random_noise.jpg "Random Noise"
-[image4]: ./GermanTrafficSigns/placeholder.png "01speedlimit30"
-[image5]: ./GermanTrafficSigns/placeholder.png "14Stop sign"
-[image6]: ./GermanTrafficSigns/placeholder.png "25Roadwork"
-[image7]: ./GermanTrafficSigns/placeholder.png "28childrenCrossing"
-[image8]: ./GermanTrafficSigns/placeholder.png "31animalCrossing"
+[image4]: ./GermanTrafficSigns/01speedlimit30.png "01speedlimit30"
+[image5]: ./GermanTrafficSigns/14Stop_sign.jpg "14Stop_sign"
+[image6]: ./GermanTrafficSigns/25Roadwork.jpg "25Roadwork"
+[image7]: ./GermanTrafficSigns/28childrenCrossing.jpg "28childrenCrossing"
+[image8]: ./GermanTrafficSigns/31animalCrossing.jpg "31animalCrossing"
 
 ---
 ### Writeup / README
