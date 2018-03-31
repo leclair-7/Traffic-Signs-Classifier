@@ -114,13 +114,29 @@ The LeNet architecture was chosen to begin with because it has proven to do well
 Here are five German traffic signs that I found on the web:
 
 
-<img src="https://github.com/leclair-7/Traffic-Signs-Classifier/blob/master/GermanTrafficSigns/01speedlimit30.PNG" width="200" height="200" style="white-space: nowrap;" />
-<img src="https://github.com/leclair-7/Traffic-Signs-Classifier/blob/master/GermanTrafficSigns/14Stop_sign.jpg" width="200" height="200" style="white-space: nowrap;" />
+<img src="https://github.com/leclair-7/Traffic-Signs-Classifier/blob/master/GermanTrafficSigns/01speedlimit30.PNG" width="200" height="200" />
+<img src="https://github.com/leclair-7/Traffic-Signs-Classifier/blob/master/GermanTrafficSigns/14Stop_sign.jpg" width="200" height="200" />
 <img src="https://github.com/leclair-7/Traffic-Signs-Classifier/blob/master/GermanTrafficSigns/25Roadwork.jpeg" width="200" height="200" />
-<img src="https://github.com/leclair-7/Traffic-Signs-Classifier/blob/master/GermanTrafficSigns/28childrenCrossing.jpg" width="200" height="200" style="white-space: nowrap;" />
+<img src="https://github.com/leclair-7/Traffic-Signs-Classifier/blob/master/GermanTrafficSigns/28childrenCrossing.jpg" width="200" height="200" />
 <img src="https://github.com/leclair-7/Traffic-Signs-Classifier/blob/master/GermanTrafficSigns/31animalCrossing.png" width="200" height="200" />
 
+Anticipation of the Classification of New Images Discussion:
+(My guesses on how the classifier will either successfully classify the images or misclassify the images)
 
+Image 1 (Speed Limit 30): 
+The first image seems to have vertical lines and right angles that are white and black from the building in the background. Given that I grayscaled the signs prior to classifying, I think the edges will make the classifier give probabilities that are near equal for a few of the 3 top softmax outputs. 
+
+Image 2 (Stop Sign):
+The stop sign image does not have enough pieces other than the sign to make it difficult to classify (background fences, trees, etc.); I think the classifier will be correct on it. 
+
+Image 3 (Road Work):
+The third image, the Road work sign has trees on the corners. I think the bottom left corner looks a bit like a triangle which could lead to misclassification because many of the signs are in the shape of a triangle.
+
+Image 4 (Children Crossing):
+In the Children crossing sign the only potential interference is the trees below the sign. The pattern the trees make doesn't seem to match that of a sign which leads me to think the classifier will be correct.
+
+Image 5 (Wild Animals Crossing):
+This sign is simply a larger image than what is part of the dataset that the model is trained with. If this is incorrectly classified I will be suspicious that the preprocessing (resizing/grayscaling/normalization) obfuscates the image data in an undesirable way. This image tests preprocessing and it should classify correctly.
 
 #### 2. Discuss the model's predictions vs. prediction on the test set
 
@@ -155,7 +171,7 @@ For the first image, the model is certain that this is a Speed limit (30km/h) wh
 
 Image #2
 
-For the second image, the model is relatively certain that this is a stop sign (probability of 0.92), which is correct. The noise around the sign seems to slightly obfuscate the classifiers confidence that it is a stop sign. The top five soft max probabilities were:
+For the second image, the model is relatively certain that this is a stop sign (probability of 0.92), which is correct. The noise around the sign seems to slightly obfuscate the classifiers confidence that it is a stop sign as expected. The top five soft max probabilities were:
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
@@ -167,7 +183,7 @@ For the second image, the model is relatively certain that this is a stop sign (
 
 Image #3
 
-For the third image, the model is certain that this is a stop sign (probability of 0.6), and the image does contain a stop sign. It seems to be able to ignore the trees in the background from the original image which means the features of road work sign are strongly represented as weights in the network. The top five soft max probabilities were:
+For the third image, the model is certain that this is a road work sign (probability of 0.6), and the image does contain a road work sign. It seems to be able to ignore the trees in the background from the original image which means the features of road work sign are strongly represented as weights in the network. The top five soft max probabilities were:
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
